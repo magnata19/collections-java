@@ -1,3 +1,5 @@
+package br.com.collection.list;
+
 import java.lang.reflect.Array;
 import java.util.*;
 
@@ -72,10 +74,18 @@ public class ExemploList {
         }
         System.out.println(notas);
 
-        notas.clear();
-        System.out.println("Apague toda a lista: " + notas);
+//        notas.clear();
+//        System.out.println("Apague toda a lista: " + notas);
+//
+//        System.out.println("Confia se a lista está vazia: " + notas.isEmpty());
 
-        System.out.println("Confia se a lista está vazia: " + notas.isEmpty());
+        // Criar uma nova lista e colocar a lista antiga dentro e mostar a primeira nota sem tirar e a ultima tirando
+        LinkedList<Double> notas2 = new LinkedList<>(notas);
+
+        System.out.println("Mostre a primeira nota da nova lista sem removêl-lo: " + notas2.get(0));
+        System.out.println("Mostre a primeira nota da nova lista removendo-o: " + notas2.remove(0));
+        System.out.println(notas2                    );
+
 
     }
 
