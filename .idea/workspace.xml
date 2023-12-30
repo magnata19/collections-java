@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d48a2685-b657-4053-bc01-2cfd7aed305a" name="Changes" comment="metodos de ordenacao em lists">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/collection/list/ExemploSet.java" afterDir="false" />
+    <list default="true" id="d48a2685-b657-4053-bc01-2cfd7aed305a" name="Changes" comment="metodos da interface set">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/collection/list/ExemploOrdenacaoSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,12 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703811315894</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="metodos da interface set">
+      <option name="closed" value="true" />
+      <created>1703850732307</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703850732307</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="conhecendo métodos da classe List" />
     <MESSAGE value="metodos de ordenacao em lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="metodos de ordenacao em lists" />
+    <MESSAGE value="metodos da interface set" />
+    <option name="LAST_COMMIT_MESSAGE" value="metodos da interface set" />
   </component>
 </project>
